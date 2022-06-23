@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "raleway";
+    src: url(polices/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "raleway light";
+    src: url(polices/Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+}
+
+.container {
+    width: 1700px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1699px) {
+    .container {
+        width: auto;
+    }
+}
+
+/* ------------------------------------------------------ */
+    /* --------------------Header-------------------- */
+/* ------------------------------------------------------ */
+
+.header .listeHeader {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.items {
+    list-style-type: none;
+}
+
+.itemsCenter {
+    text-align: center;
+}
+
+.lienListe {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+.lienListe:hover {
+    border-top: 3px solid #0065FC;
+    padding-top: 43px;
+    color: #0065FC;
+}
+
+.lienListe2 {
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
