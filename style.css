@@ -194,3 +194,28 @@ body {
     color: black;
     font-weight: bold;
 }
+
+/* ------------------------------------------------------ */
+    /* -------------------Logements------------------ */
+/* ------------------------------------------------------ */
+
+.logements {
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.fa-info {
+    border: 1px solid #F2F2F2;
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+    color: #0065FC;
+}
+
+.paragrapheLogements {
+    margin-left: 8px;
+    font-size: 1.050em;
+}
