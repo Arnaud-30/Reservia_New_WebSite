@@ -103,11 +103,18 @@ body {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 412px) {
     .hebergements, .activites:hover {
         padding-left: 30px;
         padding-right: 29px;
         border-bottom: 3px solid #0065FC;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hebergements, .activites:hover {
+        border-bottom: none;
+        padding: 0;
     }
 }
 
@@ -416,6 +423,12 @@ body {
     }
 }
 
+@media screen and (max-width: 410px) {
+    .figure {
+        width: 300px;
+    }
+}
+
 .imageFigure {
     border-radius: 20px 20px 0px 0px;
     width: 300px;
@@ -510,6 +523,13 @@ body {
     font-weight: 700;
 }
 
+@media screen and (max-width: 550px) {
+    .titrePrincipalAside {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
 .fa-chart-column {
     font-weight: 700;
     font-size: 1.5em;
@@ -544,30 +564,44 @@ body {
     }
 }
 
+@media screen and (max-width: 410px) {
+    .flexContainerAside {
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 .imagesAside {
-    width: 140px;
+    width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 
 .titreFigureAside {
-    margin-left: 25px;
-    margin-right: 20px;
+    margin-left: 13px;
     font-size: 1.2em;
     margin-top: 15px;
 }
 
+@media screen and (max-width: 410px) {
+    .titreFigureAside {
+        font-size: 1.1em;
+    }
+}
+
 .paragrapheFigureAside {
-    margin-left: 25px;
+    margin-left: 13px;
     font-size: 0.950em;
     margin-top: -12px;
 }
 
 .flexIconEtoileAside {
     color: #0065FC;
-    margin-left: 25px;
-    margin-top: 30px;
+    margin-left: 13px;
+    margin-top: 25px;
     font-size: 0.8em;
 }
 
@@ -607,6 +641,12 @@ body {
     margin-right: 8px;
 }
 
+@media screen and (max-width: 410px) {
+    .figureN1, .imagesFigureActivitesN1 {
+        width: 300px
+    }
+}
+
 .imagesFigureActivitesN1 {
     max-width: 338px;
     height: 460px;
@@ -621,6 +661,14 @@ body {
     border-radius: 20px 20px 20px 20px;
     width: 338px;
     height: 250px;
+}
+
+@media screen and (max-width: 410px) {
+    .figureN2, .imagesFigureActivitesN2 {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .imagesFigureActivitesN2 {
@@ -646,6 +694,14 @@ body {
     }
 }
 
+@media screen and (max-width: 410px) {
+    .figureN3, .imagesFigureActivitesN3 {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .imagesFigureActivitesN3 {
     width: 100%;
     height: 150px;
@@ -664,6 +720,12 @@ body {
     margin-right: 8px;
 }
 
+@media screen and (max-width: 410px) {
+    .figureN4, .imagesFigureActivitesN4 {
+        width: 300px;
+    }
+}
+
 .imagesFigureActivitesN4 {
     max-width: 338px;
     height: 460px;
@@ -678,6 +740,14 @@ body {
     border-radius: 20px 20px 20px 20px;
     width: 338px;
     height: 220px;
+}
+
+@media screen and (max-width: 410px) {
+    .figureN5, .imagesFigureActivitesN5 {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .imagesFigureActivitesN5 {
@@ -700,6 +770,14 @@ body {
 @media screen and (max-width:1699px) {
     .figureN6 {
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .figureN6, .imagesFigureActivitesN6 {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -769,7 +847,7 @@ figure:hover {
 
 @media screen and (max-width: 1360px) {
     .liste {
-        margin-left: -35px;
+        margin-left: -40px;
         
     }
 }
@@ -780,7 +858,7 @@ figure:hover {
 
 @media screen and (max-width: 1360px) {
     .liste1 {
-        margin-left: -35px;
+        margin-left: -40px;
     }
 }
 
@@ -790,7 +868,7 @@ figure:hover {
 
 @media screen and (max-width: 1360px) {
     .liste2 {
-        margin-left: -35px;
+        margin-left: -40px;
     }
 }
 
