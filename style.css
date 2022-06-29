@@ -37,8 +37,48 @@ body {
     margin-left: -40px;
 }
 
+@media screen and (max-width: 550px) {
+    .header .listeHeader {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "enfant1 enfant4"
+        "enfant2 enfant3"
+        ;
+
+        justify-content: center;
+    }
+
+    .enfant1 {
+        grid-area: enfant1;
+    }
+    .enfant2 {
+        grid-area: enfant2;
+    }
+    .enfant3 {
+        grid-area: enfant3;
+    }
+    .enfant4 {
+        grid-area: enfant4;
+    }
+}
+
 .items {
     list-style-type: none;
+}
+
+@media screen and (max-width: 1699px) {
+    .items {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .items {
+        margin: auto;
+    }
 }
 
 .itemsCenter {
@@ -57,6 +97,20 @@ body {
     color: #0065FC;
 }
 
+@media screen and (max-width: 550px) {
+    .lienListe:hover {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hebergements, .activites:hover {
+        padding-left: 30px;
+        padding-right: 29px;
+        border-bottom: 3px solid #0065FC;
+    }
+}
+
 .lienListe2 {
     text-decoration: none;
     color: #0065FC;
@@ -69,6 +123,12 @@ body {
 
 .titrePrincipal {
     margin-top: 40px;
+}
+
+@media screen and (max-width: 1699px) {
+    .titrePrincipal {
+        margin-left: 10px;
+    }
 }
 
 .grosTitre {
@@ -88,6 +148,21 @@ body {
 .inputSearch {
     display: flex;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 1699px) {
+    .inputSearch {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .inputSearch {
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .fa-location-dot {
@@ -117,7 +192,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 500px) {
     .btn {
         display: none;
     }
@@ -135,7 +210,7 @@ body {
     visibility: hidden;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 500px) {
     .btnLoupe {
         visibility: visible;
     }
@@ -152,15 +227,40 @@ body {
     margin-top: 30px;
 }
 
+@media screen and (max-width: 1699px) {
+    .filtre {
+        margin-left: 10px;
+    }
+}
+
 .titreFiltre {
     font-weight: bold;
     font-size: 1.2em;
     margin-right: -30px;
 }
 
+@media screen and (max-width: 938px) {
+    .titreFiltre {
+        margin-left: 20px;
+    }
+}
+
 .listeIcon {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 938px) {
+    .listeIcon {
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .listeIcon {
+        margin-left: -50px;
+    }
 }
 
 .iconFiltre {
@@ -170,6 +270,12 @@ body {
     margin-left: 30px;
     transition: 0.7s ease-in-out;
     font-size: 1.060em;
+}
+
+@media screen and (max-width: 938px) {
+    .iconFiltre {
+        margin-top: 10px;
+    }
 }
 
 .iconFiltre:hover {
@@ -207,6 +313,12 @@ body {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 1699px) {
+    .logements {
+        margin-left: 10px;
+    }
+}
+
 .fa-info {
     border: 1px solid #F2F2F2;
     border-radius: 100px;
@@ -237,6 +349,12 @@ body {
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     width: 1100px;
+}
+
+@media screen and (max-width: 938px) {
+    .hebergementsMarseille {
+        background: none;
+    }
 }
 
 @media screen and (max-width: 1660px) {
@@ -368,6 +486,12 @@ body {
     }
 }
 
+@media screen and (max-width: 938px) {
+    .containerAside {
+        border-radius: 0px 0px 0px 0px;
+    }
+}
+
 @media screen and (max-width: 1660px) {
     .flex3Figure {
         width: auto;
@@ -455,6 +579,10 @@ body {
     width: auto;
 }
 
+.titrePrincipalActivites {
+    margin-left: 30px;
+}
+
 .blocFlexActivites {
     display: flex;
     align-items: center;
@@ -474,11 +602,11 @@ body {
     box-shadow: 9px 9px 10px #d8d2d2;
     border-radius: 20px 20px 20px 20px;
     height: 530px;
-    width: 350px;
+    width: 338px;
 }
 
 .imagesFigureActivitesN1 {
-    max-width: 350px;
+    max-width: 338px;
     height: 460px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -489,7 +617,7 @@ body {
     background-color: white;
     box-shadow: 9px 9px 10px #d8d2d2;
     border-radius: 20px 20px 20px 20px;
-    width: 350px;
+    width: 338px;
     height: 250px;
 }
 
@@ -505,7 +633,7 @@ body {
     background-color: white;
     box-shadow: 9px 9px 10px #d8d2d2;
     border-radius: 20px 20px 20px 20px;
-    width: 350px;
+    width: 338px;
     height: 220px;
     margin-top: 60px;
 }
@@ -529,11 +657,11 @@ body {
     box-shadow: 9px 9px 10px #d8d2d2;
     border-radius: 20px 20px 20px 20px;
     height: 530px;
-    width: 350px;
+    width: 338px;
 }
 
 .imagesFigureActivitesN4 {
-    max-width: 350px;
+    max-width: 338px;
     height: 460px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -544,7 +672,7 @@ body {
     background-color: white;
     box-shadow: 9px 9px 10px #d8d2d2;
     border-radius: 20px 20px 20px 20px;
-    width: 350px;
+    width: 338px;
     height: 220px;
 }
 
@@ -560,7 +688,7 @@ body {
     background-color: white;
     box-shadow: 9px 9px 10px #d8d2d2;
     border-radius: 20px 20px 20px 20px;
-    width: 350px;
+    width: 338px;
     height: 220px;
     margin-top: 89px;
 }
@@ -594,10 +722,92 @@ figcaption {
     border-bottom: 2px solid black;
 }
 
+.doubleFigure {
+    width: 99.9%;
+    margin-left: -0px;
+}
+
 figure {
     transition: 0.7s ease-in-out;
 }
 
 figure:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 1661px) {
+    figure:hover {
+        transform: none;
+    }
+}
+
+/* ------------------------------------------------------ */
+    /* --------------------Footer-------------------- */
+/* ------------------------------------------------------ */
+
+.footer {
+    display: flex;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 1360px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.liste {
+    margin-left: 110px;
+}
+
+@media screen and (max-width: 1360px) {
+    .liste {
+        margin-left: -35px;
+        
+    }
+}
+
+.liste1 {
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 1360px) {
+    .liste1 {
+        margin-left: -35px;
+    }
+}
+
+.liste2 {
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 1360px) {
+    .liste2 {
+        margin-left: -35px;
+    }
+}
+
+.titreFooter {
+    margin-left: 40px;
+}
+
+.listePuceFooter {
+    list-style-type: none;
+}
+
+.liFooter {
+    margin-top: 10px;
+}
+
+.lienFooter {
+    text-decoration: none;
+    color: black;
+}
+
+.lienFooter:hover {
+    border-bottom: 1px solid black;
 }
