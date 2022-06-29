@@ -446,3 +446,158 @@ body {
     margin-top: 30px;
     font-size: 0.8em;
 }
+
+/* ------------------------------------------------------ */
+    /* -------------Activités à Marseille------------ */
+/* ------------------------------------------------------ */
+
+.containerActivitesMarseille {
+    width: auto;
+}
+
+.blocFlexActivites {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1699px) {
+    .blocFlexActivites {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.figureN1 {
+    background-color: white;
+    box-shadow: 9px 9px 10px #d8d2d2;
+    border-radius: 20px 20px 20px 20px;
+    height: 530px;
+    width: 350px;
+}
+
+.imagesFigureActivitesN1 {
+    max-width: 350px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.figureN2 {
+    background-color: white;
+    box-shadow: 9px 9px 10px #d8d2d2;
+    border-radius: 20px 20px 20px 20px;
+    width: 350px;
+    height: 250px;
+}
+
+.imagesFigureActivitesN2 {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.figureN3 {
+    background-color: white;
+    box-shadow: 9px 9px 10px #d8d2d2;
+    border-radius: 20px 20px 20px 20px;
+    width: 350px;
+    height: 220px;
+    margin-top: 60px;
+}
+
+@media screen and (max-width:1699px) {
+    .figureN3 {
+        margin-top: 30px;
+    }
+}
+
+.imagesFigureActivitesN3 {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.figureN4 {
+    background-color: white;
+    box-shadow: 9px 9px 10px #d8d2d2;
+    border-radius: 20px 20px 20px 20px;
+    height: 530px;
+    width: 350px;
+}
+
+.imagesFigureActivitesN4 {
+    max-width: 350px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.figureN5 {
+    background-color: white;
+    box-shadow: 9px 9px 10px #d8d2d2;
+    border-radius: 20px 20px 20px 20px;
+    width: 350px;
+    height: 220px;
+}
+
+.imagesFigureActivitesN5 {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.figureN6 {
+    background-color: white;
+    box-shadow: 9px 9px 10px #d8d2d2;
+    border-radius: 20px 20px 20px 20px;
+    width: 350px;
+    height: 220px;
+    margin-top: 89px;
+}
+
+@media screen and (max-width:1699px) {
+    .figureN6 {
+        margin-top: 30px;
+    }
+}
+
+.imagesFigureActivitesN6 {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.lienFigcaption {
+    text-decoration: none;
+    color: black;
+}
+
+.lienFigcaption:hover {
+    border-bottom: 2px solid black;
+}
+
+figure {
+    transition: 0.7s ease-in-out;
+}
+
+figure:hover {
+    transform: scale(1.1);
+}
