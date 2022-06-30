@@ -620,9 +620,16 @@ body {
 }
 
 .paragrapheFigureAside {
-    margin-left: 8px;
-    font-size: 0.8em;
+    margin-left: 13px;
+    font-size: 0.950em;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 410px) {
+    .paragrapheFigureAside {
+        margin-left: 8px;
+        font-size: 0.8em;
+    }
 }
 
 .flexIconEtoileAside {
