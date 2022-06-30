@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vous souhaitez des vacances de rêve en plein centre ville ou en pleine nature, Reservia est fait pour vous." />
+    <meta name="keywords" content="reservia, vacances, centre-ville, nature, vous, reve" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href="images/logo/Reservia.svg" />
+
+    <script src="https://kit.fontawesome.com/245f7f0f5e.js" crossorigin="anonymous"></script>
+
+    <title>Reservia, connexion</title>
+</head>
+
+<body>
+    <form method="post" action="traitement.js">
+        <fieldset class="taille">
+            <legend>Se connecter</legend>
+            <div class="pseudo">
+                <label for="pseudo" class="label2">Nom d'utilisateur :</label>
+                <input type="text" name="pseudo" id="pseudo" class="pseudoInput input3" required />
+            </div>
+            <div class="pass">
+                <label for="pass" class="label2">Mot de passe :</label>
+                <input type="password" name="pass" id="pass" class="passInput input3" required />
+            </div>
+            <div class="btnConnexion">
+                <button type="submit" class="btnPass">Envoyé</button>
+                <button type="submit" class="btnPass"><a href="index.html" class="lienConnexion">Retour</a></button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
