@@ -874,7 +874,7 @@ figure:hover {
     background-color: #F2F2F2;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1699px) {
     .footer {
         display: flex;
         flex-direction: column;
@@ -882,10 +882,10 @@ figure:hover {
 }
 
 .liste {
-    margin-left: 110px;
+    margin-left: 70px;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1699px) {
     .liste {
         margin-left: -40px;
         
@@ -896,7 +896,7 @@ figure:hover {
     margin-left: 300px;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1699px) {
     .liste1 {
         margin-left: -40px;
     }
@@ -906,14 +906,21 @@ figure:hover {
     margin-left: 300px;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1699px) {
     .liste2 {
         margin-left: -40px;
     }
 }
 
 .titreFooter {
-    margin-left: 40px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1699px) {
+    .titreFooter {
+        width: 30px;
+        border-bottom: 2px solid black;
+    }
 }
 
 .listePuceFooter {
@@ -922,6 +929,7 @@ figure:hover {
 
 .liFooter {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .lienFooter {
